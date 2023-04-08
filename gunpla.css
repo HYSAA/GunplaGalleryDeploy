@@ -1,0 +1,176 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+}
+.banner{
+  user-select: none; /*para di ma highlight sa users*/
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(92, 29, 29, 0.75)),url(exia.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.navbar{
+  user-select: none;
+  width: 80%;
+  margin: auto;
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.logo{
+  user-select: none;
+  width: 20%;
+  cursor: pointer; 
+  margin: auto;
+  flex: auto;
+  border-color: #e80e0e;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  height: 10%;
+  width: 15%;
+  -webkit-user-drag: none;
+
+}
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  
+}
+.navbar ul li a{
+text-decoration: none;
+color: #fff;
+text-transform: uppercase;
+
+}
+.navbar ul li ::after{
+content:'';
+height: 3px;
+width: 0;
+background: #cf6363;
+position: absolute;
+left: 0;
+bottom:-5px;
+transition: 0.5s;
+}
+.navbar ul li:hover ::after{
+width: 100%;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  margin: 0rem;
+  overflow: hidden;
+}
+
+#image-track {
+  display: flex;
+  gap: 4vmin;
+  position: absolute;
+  left: 60%;
+  top: 60%;
+  transform: translate(0%, -50%); 
+  user-select: none; /* -- para di ma highlight ang image -- */
+}
+.personal-info {
+  width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.personal-info h2 {
+  margin-bottom: 10px;
+}
+
+.personal-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.personal-info li {
+  margin-bottom: 5px;
+}
+
+
+#image-track > .image {
+  width: 40vmin;
+  height: 56vmin;
+  object-fit: cover;
+  object-position: 100% center;
+}
+
+
+
+/*
+ul {
+  overflow: hidden;
+background-color: #28c9d5;
+  position: fixed;
+  top: 20px;
+  margin: 0;
+  padding: 20px;
+  width: 100%;
+}
+ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+ul li a {
+  display: block;
+  color: #eeeeee;
+  text-align: center;
+  padding: 15px 30px 15px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: arial;
+
+}
+.navbar a:hover {
+  color: #ffffff;
+}
+.container {
+  padding: 18px;
+  margin-top: 35px;
+  height: 2000px;
+}
+.navbar{
+  width: 90%;
+  margin: auto;
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+*/
+
+
+/*
+
+body{
+  margin: 0;
+  background-color: #f1e9e9;
+  background-image: url(WingBack.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+ background-position: center;
+}
+*/
